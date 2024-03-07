@@ -1,3 +1,14 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.text {
+  flex-grow: 1;
+}
+
 .btn {
   display: flex;
   align-items: center;
@@ -18,7 +29,7 @@
 }
 
 .btn:active {
-  background-color: #e2e5e8;
+  background-color: #bdbdbd;
 }
 
 .checkbox {
