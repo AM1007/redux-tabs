@@ -9,6 +9,6 @@
   font: inherit;
 }
 
-.field {
+.field:focus {
   outline-color: #1976d2;
 }

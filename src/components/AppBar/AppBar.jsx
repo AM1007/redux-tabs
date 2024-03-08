@@ -10,7 +10,7 @@ export const AppBar = () => {
         <TaskCounter />
       </section>
       <section className={css.section}>
-        <h2 className={css.title}>Filter by Status</h2>
+        <h2 className={css.title}>Filter by status</h2>
         <StatusFilter />
       </section>
     </header>
